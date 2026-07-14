@@ -1,5 +1,6 @@
 import axios from 'axios'
 import React, { useState } from 'react'
+import NavigationBar from './NavigationBar'
 
 const AddEv = () => {
     const [input, changeInput] = useState(
@@ -40,6 +41,7 @@ const AddEv = () => {
     }
   return (
     <div>
+        <NavigationBar/>
 
 <div className="container">
                 <div className="row">
